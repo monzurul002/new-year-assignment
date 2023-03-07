@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.description{
+    color:rgba(235, 229, 229, 0.952);
+}
+
+
+
 /* --header part-- */
 .header{
     background-image: url("/images/banner/banner3.png");
@@ -21,9 +27,6 @@
     font-size: 50px;
     font-weight: 800;
 }
-.header-description{
-    color:rgba(235, 229, 229, 0.89);
-}
 
 .btn {
     background-color: #FFFFFF;
@@ -34,4 +37,92 @@
     font-size: 15px;
     font-weight: 600;
     margin-top: 20px;
+}
+
+/* ---failure section--- */
+
+.failure-container {
+    display: flex;
+    gap:25px
+}
+
+.failure-img{
+    width: 50%;
+    padding-left: 180px;
+}
+.failure-content{
+    width: 50%;
+    margin-top: 150px;
+}
+
+.failure-title{
+    font-size: 35px;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+
+.failure-description {
+    color: rgb(109, 100, 100);
+    margin-bottom: 20px;
+}
+
+/* ---my plan section--- */
+.myplan {
+    margin-top: 100px;
+}
+.myplan-container {
+    display: flex;
+    padding: 20px 200px;
+   
+}
+.plan {
+    padding: 15px 30px;
+}
+.plan img {
+    padding: 5px 20px;
+}
+.myplan-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+.plan h2 {
+    font-size: 20px;
+    color:gray;
+    margin-left: 15px;
+}
+
+.mindset-banner{
+    background-image: url("images/watch.png");
+    background-repeat: no-repeat;
+    position: relative;
+   margin: 20px 150px;
+}
+.mindset-banner img {
+    width: 80%;
+    height: 300px;
+   
+}
+
+.maindset-banner-content {
+    position: absolute;
+  bottom: 50px;
+  left: 106px;
+  
+
+}
+
+.mindset-text {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+   
+}
+
+.call-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    
 }

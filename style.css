@@ -164,3 +164,23 @@
     color: #FFFFFF;
     font-size: 18px;
 }
+
+/* ---article section--- */
+.article-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.article {
+    margin-left: 10px;
+    padding: 20px 10px;
+    box-shadow: 5px 10px 10px 2px rgba(128, 128, 128, 0.699);
+}
+
+.article-heading{
+    margin:35px 0px 10px 100px;
+    border: 1px solid rgb(175, 154, 150);
+    display: inline-block;padding: 5px 10px;
+}

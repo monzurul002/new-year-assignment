@@ -126,3 +126,41 @@
     border-radius: 4px;
     
 }
+
+/* ---footer---- */
+.footer {
+    display: flex;
+    justify-content:space-around;
+    
+    padding: 100px 50px ;
+    background-color:rgb(26, 24, 24);
+    color: #FFFFFF;
+}
+.future-heading {
+    font-size: 40px ;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: lightgray;
+    margin:10px 0px;
+}
+
+
+.email-input {
+    border: 1px solid #FFFFFF;
+    margin: 20px 0px;
+    border-radius: 7px;
+    padding: 12px 30px;
+    color: #FFFFFF;
+    background-color: rgb(26, 24, 24);
+}
+
+.subscribe-btn {
+    padding: 12px 35px;
+    background-color: rgba(81, 81, 240, 0.884);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
